@@ -8,3 +8,16 @@ Este sistema bancário fictício, desenvolvido em C, permite a criação e gest�
 - Transferências: Facilita a transferência de valores entre contas existentes no sistema, respeitando o saldo disponível.
 
 Este sistema é uma base para estudos de lógica de programação e estruturas de dados, além de simular de maneira simplificada as operações bancárias do dia a dia.
+
+# Como rodar o projeto
+Baixe o arquivo e extraia para uma pasta, entre na pasta via terminal
+
+```bash
+cd /nome_da_pasta/
+```
+
+Agora, execute o arquivo
+
+```bash
+./banco
+```
