@@ -1,23 +1,55 @@
-# Descrição 
-Este sistema bancário fictício, desenvolvido em C, permite a criação e gestão de contas bancárias. Os usuários podem realizar operações essenciais como saques, depósitos e transferências entre contas existentes no sistema. Cada conta é associada a um titular e possui saldo, permitindo o gerenciamento financeiro de forma simples e direta. O sistema inclui validações para garantir que não ocorram transações com saldo insuficiente, além de manter um registro básico das contas para facilitar as operações.
+# Sistema Bancário em C
 
-# Funcionalidades principais:
-- Criação de contas: O usuário pode criar uma nova conta com dados como nome do titular e saldo inicial.
-- Depósitos: Permite adicionar fundos à conta selecionada.
-- Saques: O usuário pode retirar fundos da conta, com validações para evitar saldo negativo.
-- Transferências: Facilita a transferência de valores entre contas existentes no sistema, respeitando o saldo disponível.
+Um sistema bancário fictício desenvolvido em C que permite a criação e gestão de contas bancárias com operações financeiras básicas.
 
-Este sistema é uma base para estudos de lógica de programação e estruturas de dados, além de simular de maneira simplificada as operações bancárias do dia a dia.
+## Funcionalidades
 
-# Como rodar o projeto
-Baixe o arquivo e extraia para uma pasta, entre na pasta via terminal
+- **Criação de contas**
+  - Cadastro de novas contas com nome do titular e saldo inicial
+  - Gerenciamento de múltiplas contas no sistema
 
+- **Operações financeiras**
+  - Depósitos (adicionar fundos à conta)
+  - Saques (retirar fundos com validação de saldo)
+  - Transferências entre contas (com verificação de saldo disponível)
+
+- **Validações de segurança**
+  - Impede transações com saldo insuficiente
+  - Verifica a existência das contas antes das operações
+
+## Pré-requisitos
+
+- Compilador GCC instalado
+- Sistema operacional Linux (recomendado)
+- Terminal bash
+
+## Compilação e Execução
+
+1. Clone ou baixe o repositório
 ```bash
-cd /nome_da_pasta/
+git clone https://github.com/lucas-jurgensen/sistema-de-banco.git
 ```
 
-Agora, execute o arquivo
+2. Acesse o diretório da página
+```bash
+cd sistema-de-banco
+```
 
+3. Se necessário, compile o programa
+```bash
+gcc banco.c -o banco
+```
+
+4. Execute o programa
 ```bash
 ./banco
 ```
+## Aprendizados
+
+Este projeto foi desenvolvido como ferramenta de estudo para:
+
+- Praticar lógica de programação em C
+- Implementar estruturas de dados básicas
+- Desenvolver sistemas de gestão simples
+- Aprender validações e tratamentos básicos
+
